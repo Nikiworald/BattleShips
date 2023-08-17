@@ -6,4 +6,13 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - BattleShips</name>
   <url>http://maven.apache.org</url>
+
+  <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+  <dependencies>
+  <dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+    <version>8.1.0</version>
+  </dependency>
+  </dependencies>
 </project>
