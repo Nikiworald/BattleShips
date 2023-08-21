@@ -17,7 +17,8 @@ public class Main {
         plr2req.setId(2);
         plr2req.setName("test2");
         System.out.println( GameSessionMap.createGame(plr1req));//todo no output if successful
-        System.out.println( GameSessionMap.joinGame(10,plr2req));
+        System.out.println( GameSessionMap.joinGame(25,plr2req));
+        System.out.println(GameSessionMap.deleteGame(25));
 
 
 
