@@ -16,9 +16,11 @@ public class Main {
         PlayerRequest plr2req= new PlayerRequest();
         plr2req.setId(2);
         plr2req.setName("test2");
-        System.out.println( GameSessionMap.createGame(plr1req));//todo no output if successful
-        System.out.println( GameSessionMap.joinGame(25,plr2req));
-        System.out.println(GameSessionMap.deleteGame(25));
+//        System.out.println( GameSessionMap.createGame(plr1req));//todo no output if successful
+        System.out.println( GameSessionMap.joinGame(39,plr2req));
+        System.out.println(GameSessionMap.deleteGame(39));
+
+        DbConnection.closeConnection();
 
 
 
